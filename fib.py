@@ -13,11 +13,8 @@ def findThreeLargestNumbers(in_array, out_array=[], currentlargest=float('-inf')
     return findThreeLargestNumbers(in_array, out_array, float('-inf'), currentlargest, tries + 1)
 
 
-#array = [141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7]
+# array = [141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7]
 array = [-141, 8, 7, 7]
 print(findThreeLargestNumbers(array))
-
-
-
 
 
