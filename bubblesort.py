@@ -1,6 +1,6 @@
 def isSorted(array):
     for idx, element in enumerate(array):
-        if idx ==0:
+        if idx == 0:
             continue
         if array[idx - 1] > array[idx]:
             return False
